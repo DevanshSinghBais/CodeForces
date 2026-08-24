@@ -6,19 +6,20 @@
 
 | Total Problems | Topics |
 |---|---|
-| 14 | 8 |
+| 15 | 9 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [brute force](#brute-force) (2)
+- [brute force](#brute-force) (3)
+- [combinatorics](#combinatorics) (1)
 - [constructive algorithms](#constructive-algorithms) (4)
 - [games](#games) (1)
 - [greedy](#greedy) (3)
 - [implementation](#implementation) (3)
-- [math](#math) (8)
-- [number theory](#number-theory) (3)
+- [math](#math) (9)
+- [number theory](#number-theory) (4)
 - [sortings](#sortings) (1)
 
 ---
@@ -27,8 +28,15 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1305C | [Kuroni and Impossible Calculation](https://codeforces.com/contest/1305/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1305/C%20-%20Kuroni%20and%20Impossible%20Calculation/solution.cpp) |
 | 2126A | [Only One Digit](https://codeforces.com/contest/2126/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/2126/A%20-%20Only%20One%20Digit/solution.cpp) |
 | 2180A | [Carnival Wheel](https://codeforces.com/contest/2180/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/2180/A%20-%20Carnival%20Wheel/solution.cpp) |
+
+### combinatorics
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1305C | [Kuroni and Impossible Calculation](https://codeforces.com/contest/1305/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1305/C%20-%20Kuroni%20and%20Impossible%20Calculation/solution.cpp) |
 
 ### constructive algorithms
 
@@ -65,6 +73,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1305C | [Kuroni and Impossible Calculation](https://codeforces.com/contest/1305/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1305/C%20-%20Kuroni%20and%20Impossible%20Calculation/solution.cpp) |
 | 1859A | [United We Stand](https://codeforces.com/contest/1859/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1859/A%20-%20United%20We%20Stand/solution.cpp) |
 | 1873C | [Target Practice](https://codeforces.com/contest/1873/problem/C) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1873/C%20-%20Target%20Practice/solution.cpp) |
 | 1877A | [Goals of Victory](https://codeforces.com/contest/1877/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1877/A%20-%20Goals%20of%20Victory/solution.cpp) |
@@ -78,6 +87,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1305C | [Kuroni and Impossible Calculation](https://codeforces.com/contest/1305/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1305/C%20-%20Kuroni%20and%20Impossible%20Calculation/solution.cpp) |
 | 1859A | [United We Stand](https://codeforces.com/contest/1859/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1859/A%20-%20United%20We%20Stand/solution.cpp) |
 | 1899A | [Game with Integers](https://codeforces.com/contest/1899/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1899/A%20-%20Game%20with%20Integers/solution.cpp) |
 | 2180A | [Carnival Wheel](https://codeforces.com/contest/2180/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/2180/A%20-%20Carnival%20Wheel/solution.cpp) |
