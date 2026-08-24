@@ -6,26 +6,34 @@
 
 | Total Problems | Topics |
 |---|---|
-| 30 | 12 |
+| 45 | 14 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
+- [*special](#special) (1)
 - [bitmasks](#bitmasks) (1)
-- [brute force](#brute-force) (8)
+- [brute force](#brute-force) (12)
 - [combinatorics](#combinatorics) (1)
-- [constructive algorithms](#constructive-algorithms) (7)
+- [constructive algorithms](#constructive-algorithms) (10)
 - [games](#games) (2)
 - [geometry](#geometry) (1)
-- [greedy](#greedy) (7)
-- [implementation](#implementation) (8)
-- [math](#math) (20)
+- [greedy](#greedy) (13)
+- [implementation](#implementation) (14)
+- [math](#math) (25)
 - [number theory](#number-theory) (5)
-- [sortings](#sortings) (1)
+- [sortings](#sortings) (2)
+- [strings](#strings) (1)
 - [two pointers](#two-pointers) (1)
 
 ---
+
+### *special
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 158A | [Next Round](https://codeforces.com/contest/158/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/158/A%20-%20Next%20Round/solution.cpp) |
 
 ### bitmasks
 
@@ -38,9 +46,13 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 4A | [Watermelon](https://codeforces.com/contest/4/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/4/A%20-%20Watermelon/solution.cpp) |
+| 231A | [Team](https://codeforces.com/contest/231/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/231/A%20-%20Team/solution.cpp) |
 | 1305C | [Kuroni and Impossible Calculation](https://codeforces.com/contest/1305/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1305/C%20-%20Kuroni%20and%20Impossible%20Calculation/solution.cpp) |
+| 1761A | [Two Permutations](https://codeforces.com/contest/1761/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1761/A%20-%20Two%20Permutations/solution.cpp) |
+| 1766A | [Extremely Round](https://codeforces.com/contest/1766/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1766/A%20-%20Extremely%20Round/solution.cpp) |
 | 1788A | [One and Two](https://codeforces.com/contest/1788/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1788/A%20-%20One%20and%20Two/solution.cpp) |
 | 1805A | [We Need the Zero](https://codeforces.com/contest/1805/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1805/A%20-%20We%20Need%20the%20Zero/solution.cpp) |
+| 1850D | [Balanced Round](https://codeforces.com/contest/1850/problem/D) | 900 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1850/D%20-%20Balanced%20Round/solution.cpp) |
 | 1853A | [Desorting](https://codeforces.com/contest/1853/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1853/A%20-%20Desorting/solution.cpp) |
 | 2126A | [Only One Digit](https://codeforces.com/contest/2126/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/2126/A%20-%20Only%20One%20Digit/solution.cpp) |
 | 2180A | [Carnival Wheel](https://codeforces.com/contest/2180/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/2180/A%20-%20Carnival%20Wheel/solution.cpp) |
@@ -56,11 +68,14 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1761A | [Two Permutations](https://codeforces.com/contest/1761/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1761/A%20-%20Two%20Permutations/solution.cpp) |
+| 1794B | [Not Dividing](https://codeforces.com/contest/1794/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1794/B%20-%20Not%20Dividing/solution.cpp) |
 | 1831A | [Twin Permutations](https://codeforces.com/contest/1831/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1831/A%20-%20Twin%20Permutations/solution.cpp) |
 | 1837A | [Grasshopper on a Line](https://codeforces.com/contest/1837/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1837/A%20-%20Grasshopper%20on%20a%20Line/solution.cpp) |
 | 1845A | [Forbidden Integer](https://codeforces.com/contest/1845/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1845/A%20-%20Forbidden%20Integer/solution.cpp) |
 | 1859A | [United We Stand](https://codeforces.com/contest/1859/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1859/A%20-%20United%20We%20Stand/solution.cpp) |
 | 1862B | [Sequence Game](https://codeforces.com/contest/1862/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1862/B%20-%20Sequence%20Game/solution.cpp) |
+| 1869A | [Make It Zero](https://codeforces.com/contest/1869/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1869/A%20-%20Make%20It%20Zero/solution.cpp) |
 | 2185A | [Perfect Root](https://codeforces.com/contest/2185/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/2185/A%20-%20Perfect%20Root/solution.cpp) |
 | 2191A | [Array Coloring](https://codeforces.com/contest/2191/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/2191/A%20-%20Array%20Coloring/solution.cpp) |
 
@@ -81,8 +96,14 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 50A | [Domino piling](https://codeforces.com/contest/50/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/50/A%20-%20Domino%20piling/solution.cpp) |
+| 231A | [Team](https://codeforces.com/contest/231/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/231/A%20-%20Team/solution.cpp) |
+| 1696B | [NIT Destroys the Universe](https://codeforces.com/contest/1696/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1696/B%20-%20NIT%20Destroys%20the%20Universe/solution.cpp) |
+| 1777A | [Everybody Likes Good Arrays!](https://codeforces.com/contest/1777/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1777/A%20-%20Everybody%20Likes%20Good%20Arrays!/solution.cpp) |
+| 1794B | [Not Dividing](https://codeforces.com/contest/1794/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1794/B%20-%20Not%20Dividing/solution.cpp) |
 | 1806A | [Walking Master](https://codeforces.com/contest/1806/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1806/A%20-%20Walking%20Master/solution.cpp) |
 | 1834A | [Unit Array](https://codeforces.com/contest/1834/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1834/A%20-%20Unit%20Array/solution.cpp) |
+| 1850D | [Balanced Round](https://codeforces.com/contest/1850/problem/D) | 900 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1850/D%20-%20Balanced%20Round/solution.cpp) |
 | 1853A | [Desorting](https://codeforces.com/contest/1853/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1853/A%20-%20Desorting/solution.cpp) |
 | 1858A | [Buttons](https://codeforces.com/contest/1858/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1858/A%20-%20Buttons/solution.cpp) |
 | 1901A | [Line Trip](https://codeforces.com/contest/1901/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1901/A%20-%20Line%20Trip/solution.cpp) |
@@ -93,11 +114,17 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 158A | [Next Round](https://codeforces.com/contest/158/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/158/A%20-%20Next%20Round/solution.cpp) |
+| 263A | [Beautiful Matrix](https://codeforces.com/contest/263/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/263/A%20-%20Beautiful%20Matrix/solution.cpp) |
+| 282A | [Bit++](https://codeforces.com/contest/282/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/282/A%20-%20Bit%2B%2B/solution.cpp) |
+| 1624B | [Make AP](https://codeforces.com/contest/1624/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1624/B%20-%20Make%20AP/solution.cpp) |
+| 1766A | [Extremely Round](https://codeforces.com/contest/1766/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1766/A%20-%20Extremely%20Round/solution.cpp) |
 | 1788A | [One and Two](https://codeforces.com/contest/1788/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1788/A%20-%20One%20and%20Two/solution.cpp) |
 | 1791C | [Prepend and Append](https://codeforces.com/contest/1791/problem/C) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1791/C%20-%20Prepend%20and%20Append/solution.cpp) |
 | 1814A | [Coins](https://codeforces.com/contest/1814/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1814/A%20-%20Coins/solution.cpp) |
 | 1829B | [Blank Space](https://codeforces.com/contest/1829/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1829/B%20-%20Blank%20Space/solution.cpp) |
 | 1845A | [Forbidden Integer](https://codeforces.com/contest/1845/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1845/A%20-%20Forbidden%20Integer/solution.cpp) |
+| 1850D | [Balanced Round](https://codeforces.com/contest/1850/problem/D) | 900 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1850/D%20-%20Balanced%20Round/solution.cpp) |
 | 1873C | [Target Practice](https://codeforces.com/contest/1873/problem/C) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1873/C%20-%20Target%20Practice/solution.cpp) |
 | 2117A | [False Alarm](https://codeforces.com/contest/2117/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/2117/A%20-%20False%20Alarm/solution.cpp) |
 | 2126A | [Only One Digit](https://codeforces.com/contest/2126/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/2126/A%20-%20Only%20One%20Digit/solution.cpp) |
@@ -107,8 +134,13 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 4A | [Watermelon](https://codeforces.com/contest/4/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/4/A%20-%20Watermelon/solution.cpp) |
+| 50A | [Domino piling](https://codeforces.com/contest/50/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/50/A%20-%20Domino%20piling/solution.cpp) |
 | 1305C | [Kuroni and Impossible Calculation](https://codeforces.com/contest/1305/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1305/C%20-%20Kuroni%20and%20Impossible%20Calculation/solution.cpp) |
+| 1607B | [Odd Grasshopper](https://codeforces.com/contest/1607/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1607/B%20-%20Odd%20Grasshopper/solution.cpp) |
+| 1624B | [Make AP](https://codeforces.com/contest/1624/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1624/B%20-%20Make%20AP/solution.cpp) |
+| 1777A | [Everybody Likes Good Arrays!](https://codeforces.com/contest/1777/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1777/A%20-%20Everybody%20Likes%20Good%20Arrays!/solution.cpp) |
 | 1788A | [One and Two](https://codeforces.com/contest/1788/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1788/A%20-%20One%20and%20Two/solution.cpp) |
+| 1794B | [Not Dividing](https://codeforces.com/contest/1794/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1794/B%20-%20Not%20Dividing/solution.cpp) |
 | 1806A | [Walking Master](https://codeforces.com/contest/1806/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1806/A%20-%20Walking%20Master/solution.cpp) |
 | 1814A | [Coins](https://codeforces.com/contest/1814/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1814/A%20-%20Coins/solution.cpp) |
 | 1834A | [Unit Array](https://codeforces.com/contest/1834/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1834/A%20-%20Unit%20Array/solution.cpp) |
@@ -141,7 +173,14 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1850D | [Balanced Round](https://codeforces.com/contest/1850/problem/D) | 900 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1850/D%20-%20Balanced%20Round/solution.cpp) |
 | 1896A | [Jagged Swaps](https://codeforces.com/contest/1896/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1896/A%20-%20Jagged%20Swaps/solution.cpp) |
+
+### strings
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 71A | [Way Too Long Words](https://codeforces.com/contest/71/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/71/A%20-%20Way%20Too%20Long%20Words/solution.cpp) |
 
 ### two pointers
 
