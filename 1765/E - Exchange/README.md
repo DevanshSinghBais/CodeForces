@@ -1,0 +1,21 @@
+<h2><a href="https://codeforces.com/contest/1765/problem/E" target="_blank" rel="noopener noreferrer">1765E — Exchange</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1000 |
+| **Language** | C++23 (GCC 14-64, msys2) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1765E](https://codeforces.com/contest/1765/problem/E) |
+
+## Topics
+`brute force` `math`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">E. Exchange</div><div class="time-limit"><div class="property-title">time limit per test</div>2 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>512 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>Monocarp is playing a MMORPG. There are two commonly used types of currency in this MMORPG — gold coins and silver coins. Monocarp wants to buy a new weapon for his character, and that weapon costs $$$n$$$ silver coins. Unfortunately, right now, Monocarp has no coins at all.</p><p>Monocarp can earn gold coins by completing quests in the game. Each quest yields exactly one gold coin. Monocarp can also exchange coins via the in-game trading system. Monocarp has spent days analyzing the in-game economy; he came to the following conclusion: it is possible to sell one gold coin for $$$a$$$ silver coins (i. e. Monocarp can lose one gold coin to gain $$$a$$$ silver coins), or buy one gold coin for $$$b$$$ silver coins (i. e. Monocarp can lose $$$b$$$ silver coins to gain one gold coin).</p><p>Now Monocarp wants to calculate the minimum number of quests that he has to complete in order to have at least $$$n$$$ silver coins after some abuse of the in-game economy. Note that Monocarp can perform exchanges of both types (selling and buying gold coins for silver coins) any number of times.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains one integer $$$t$$$ ($$$1 \le t \le 10^4$$$) — the number of test cases.</p><p>Each test case consists of one line containing three integers $$$n$$$, $$$a$$$ and $$$b$$$ ($$$1 \le n \le 10^7$$$; $$$1 \le a, b \le 50$$$).</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, print one integer — the minimum possible number of quests Monocarp has to complete.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id0048657006783167067" id="id00732020004443361" class="input-output-copier">Copy</div></div><pre id="id0048657006783167067"><div class="test-example-line test-example-line-even test-example-line-0">4</div><div class="test-example-line test-example-line-odd test-example-line-1">100 25 30</div><div class="test-example-line test-example-line-even test-example-line-2">9999997 25 50</div><div class="test-example-line test-example-line-odd test-example-line-3">52 50 48</div><div class="test-example-line test-example-line-even test-example-line-4">49 50 1</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id006860263126253938" id="id000845773094494553" class="input-output-copier">Copy</div></div><pre id="id006860263126253938">4
+400000
+1
+1
+</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first test case of the example, Monocarp should complete $$$4$$$ quests, and then sell $$$4$$$ gold coins for $$$100$$$ silver coins.</p><p>In the second test case, Monocarp should complete $$$400000$$$ quests, and then sell $$$400000$$$ gold coins for $$$10$$$ million silver coins.</p><p>In the third test case, Monocarp should complete $$$1$$$ quest, sell the gold coin for $$$50$$$ silver coins, buy a gold coin for $$$48$$$ silver coins, and then sell it again for $$$50$$$ coins. So, he will have $$$52$$$ silver coins.</p><p>In the fourth test case, Monocarp should complete $$$1$$$ quest and then sell the gold coin he has obtained for $$$50$$$ silver coins.</p></div>
