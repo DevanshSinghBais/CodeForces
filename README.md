@@ -6,14 +6,14 @@
 
 | Total Problems | Topics |
 |---|---|
-| 196 | 22 |
+| 197 | 22 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [*special](#special) (2)
-- [Uncategorized](#uncategorized) (1)
+- [Uncategorized](#uncategorized) (2)
 - [binary search](#binary-search) (12)
 - [bitmasks](#bitmasks) (4)
 - [brute force](#brute-force) (35)
@@ -49,6 +49,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1077C | [Good Array](https://codeforces.com/contest/1077/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/1077/C%20-%20Good%20Array/solution.cpp) |
+| 2272A | [Maximize One MEX](https://codeforces.com/contest/2272/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/DevanshSinghBais/Codeforces/blob/HEAD/2272/A%20-%20Maximize%20One%20MEX/solution.cpp) |
 
 ### binary search
 
